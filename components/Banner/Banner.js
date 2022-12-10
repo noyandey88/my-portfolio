@@ -36,7 +36,7 @@ const Banner = () => {
       </div>
       <div>
         <div className='bg-gradient-to-b from-cyan-500 rounded-tl-full'>
-          <Image src="/noyan.png" width={400} height={400} alt="developer"></Image>
+          <Image src="/noyan-2.png" width={400} height={400} alt="developer"></Image>
         </div>
       </div>
       <div className="block md:hidden -mt-4">

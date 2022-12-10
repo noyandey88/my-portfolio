@@ -44,7 +44,7 @@ const Navbar = () => {
         aria-haspopup="false"
         tabIndex="0"
         className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:bg-cyan-50 focus:outline-none focus-visible:outline-none lg:px-8"
-        href="/"
+        href="/about"
       >
         <span>About</span>
       </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
   return (
     <div>
       {/*<!-- Component: Basic Navbar --> */}
-      <header className="relative z-20 w-full bg-white/90 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+      <header className="relative z-20 w-full bg-white/90 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:backdrop-blur-sm lg:after:hidden font-code">
         <div className="relative mx-auto max-w-full px-6 md:px-0 lg:px-0 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
