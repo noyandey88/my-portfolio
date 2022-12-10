@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner/Banner'
+import Contact from '../components/Contact/Contact'
+import Projects from '../components/Projects/Projects'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       </Head>
       <main>
         <Banner></Banner>
+        <Projects></Projects>
+        <Contact></Contact>
       </main>
     </div>
   )

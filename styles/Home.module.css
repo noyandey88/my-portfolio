@@ -127,3 +127,9 @@
     filter: invert(1);
   }
 } */
+
+.bg{
+  background-image: url('/public/blog-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

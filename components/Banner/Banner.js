@@ -8,16 +8,16 @@ const Banner = () => {
       <div className="space-y-6">
         <div className='text-center md:text-left'>
           <h2 className="text-xl font-code font-medium tracking-widest">This Is <span className="font-bold text-cyan-600">Noyan Dey</span></h2>
-          <h2 className="text-2xl block md:hidden font-bold">I'm a Developer</h2>
+          <h2 className="text-2xl block md:hidden font-bold">Frontend Developer</h2>
         </div>
         {/* animated text */}
         <div className='hidden md:block'>
           <TypeAnimation className='text-6xl font-code font-bold'
             // Same String at the start will only be typed once, initially
             sequence={[
-              "I'm a Developer",
+              "Frontend Developer",
               1000,
-              "I'm a Programmer",
+              "MERN Stack Developer",
               1000,
             ]}
             speed={30} // Custom Speed from 1-99 - Default Speed: 40

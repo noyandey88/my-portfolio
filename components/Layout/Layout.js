@@ -4,12 +4,14 @@ import Navbar from '../Navbar/Navbar';
 
 const Layout = ({ children }) => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <Navbar></Navbar>
-      <main>
-        {children}
-      </main>
-      <Footer></Footer>
+    <div>
+      <div className="max-w-7xl mx-auto">
+        <Navbar></Navbar>
+        <main>
+          {children}
+        </main>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
