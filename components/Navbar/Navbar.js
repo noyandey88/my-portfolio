@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
   const menu = <>
     <li role="none" className="flex items-stretch">
-      <a
+      <Link
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
@@ -13,10 +13,10 @@ const Navbar = () => {
         href="/"
       >
         <span>Home</span>
-      </a>
+      </Link>
     </li>
     <li role="none" className="flex items-stretch">
-      <a
+      <Link
         role="menuitem"
         aria-current="page"
         aria-haspopup="false"
@@ -25,10 +25,10 @@ const Navbar = () => {
         href="/"
       >
         <span>Project</span>
-      </a>
+      </Link>
     </li>
     <li role="none" className="flex items-stretch">
-      <a
+      <Link
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
@@ -36,10 +36,10 @@ const Navbar = () => {
         href="/"
       >
         <span>Skils</span>
-      </a>
+      </Link>
     </li>
     <li role="none" className="flex items-stretch">
-      <a
+      <Link
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
@@ -47,10 +47,10 @@ const Navbar = () => {
         href="/"
       >
         <span>About</span>
-      </a>
+      </Link>
     </li>
     <li role="none" className="flex items-stretch">
-      <a
+      <Link
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
@@ -58,7 +58,7 @@ const Navbar = () => {
         href="/"
       >
         <span>Contact Me</span>
-      </a>
+      </Link>
     </li>
   </>
 

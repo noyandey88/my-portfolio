@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="flex flex-col lg:flex-row justify-between items-center">
       <div className="space-y-6">
         <div className='text-center md:text-left'>
-          <h2 className="text-xl font-code font-medium tracking-widest">This Is Noyan Dey</h2>
+          <h2 className="text-xl font-code font-medium tracking-widest">This Is <span className="font-bold text-cyan-600">Noyan Dey</span></h2>
           <h2 className="text-2xl block md:hidden font-bold">I'm a Developer</h2>
         </div>
         {/* animated text */}
@@ -17,7 +17,7 @@ const Banner = () => {
             sequence={[
               "I'm a Developer",
               1000,
-              "I,m a Programmer",
+              "I'm a Programmer",
               1000,
             ]}
             speed={30} // Custom Speed from 1-99 - Default Speed: 40
@@ -27,7 +27,7 @@ const Banner = () => {
         </div>
         {/* download button */}
         <div className="hidden md:block">
-          <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold">Download Resume</a>
+          <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
         </div>
       </div>
       <div>
@@ -36,7 +36,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="block md:hidden -mt-4">
-        <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold">Download Resume</a>
+        <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
       </div>
     </div>
   );
