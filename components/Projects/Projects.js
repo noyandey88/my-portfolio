@@ -3,12 +3,12 @@ import React from 'react';
 const Projects = () => {
   return (
     <div>
-      <div className='text-center mt-8'>
+      <div className='text-center mt-12'>
         <h1 className='text-4xl font-code font-bold'>Projects</h1>
       </div>
       <div>
         {/* proejcts cards */}
-        <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+        <div className="px-4 py-8 mx-auto lg:px-0 lg:py-8">
           <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
             <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
               <a href="/" aria-label="Article">
