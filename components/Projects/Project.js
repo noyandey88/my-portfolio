@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Project = ({project}) => {
@@ -23,6 +24,7 @@ const Project = ({project}) => {
         <p className="mb-4 text-gray-700">
           {project.description.slice(0, 100)}...
         </p>
+        <Link className='border-2 border-cyan-500 px-2 py-1 text-cyan-600' href={project.liveLink}>Live Site</Link>
       </div>
     </div>
   );
