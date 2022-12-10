@@ -12,16 +12,16 @@ const Contact = () => {
   
 
   return (
-    <div>
-      <div className='text-center mt-12 mb-4'>
+    <div id='contact-me'>
+      {/* <div className='text-center mt-12 mb-4'>
         <h1 className='text-4xl font-code font-bold'>Contact Me</h1>
-      </div>
-      <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 border-2">
+      </div> */}
+      <div className="grid grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-8 border-2">
         <div className="flex flex-col justify-between">
           <div className="space-y-2">
-            <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-            <div className="dark:text-gray-400">
-              <Image src="/blob.svg" width={400} height={400}></Image>
+            <div className="grid grid-cols-1 justify-items-center items-center">
+            <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Contact Me</h2>
+              <Image src="/mail.gif" width={400} height={400}></Image>
             </div>
           </div>
         </div>

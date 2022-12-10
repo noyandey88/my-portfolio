@@ -17,7 +17,11 @@ const Banner = () => {
             sequence={[
               "Frontend Developer",
               1000,
-              "MERN Stack Developer",
+              "Mern Stack Developer",
+              1000,
+              "React Developer",
+              1000,
+              "Full Stack Developer",
               1000,
             ]}
             speed={30} // Custom Speed from 1-99 - Default Speed: 40
@@ -32,7 +36,7 @@ const Banner = () => {
       </div>
       <div>
         <div className='bg-gradient-to-b from-cyan-500 rounded-tl-full'>
-          <Image src="/developer.png" width={400} height={400} alt="developer"></Image>
+          <Image src="/noyan.png" width={400} height={400} alt="developer"></Image>
         </div>
       </div>
       <div className="block md:hidden -mt-4">
