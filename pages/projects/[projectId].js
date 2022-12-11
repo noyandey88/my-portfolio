@@ -85,7 +85,7 @@ const ProjectDetails = ({ project }) => {
 export const getServerSideProps = async (context) => {
   const { params } = context;
 
-  const res = await fetch(`http://localhost:5000/projects/${params?.projectId}`);
+  const res = await fetch(`https://noyan-portfolio-server.vercel.app/projects/${params?.projectId}`);
   const data = await res.json();
 
   return {
@@ -96,7 +96,7 @@ export const getServerSideProps = async (context) => {
 }
 
 export const getServerSidePaths = async () => {
-  const res = await fetch("http://localhost:5000/projects");
+  const res = await fetch("https://noyan-portfolio-server.vercel.app/projects");
   const projects = await res.json();
 
   const paths = projects.map(project => {

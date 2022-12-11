@@ -21,7 +21,7 @@ export default function Home({ projects }) {
 }
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/projects");
+  const res = await fetch("https://noyan-portfolio-server.vercel.app/projects");
   const data = await res.json();
 
   return {

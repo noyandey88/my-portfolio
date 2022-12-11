@@ -24,9 +24,9 @@ const Project = ({ project }) => {
         <p className="mb-4 text-gray-700">
           {project.description.slice(0, 100)}...
         </p>
-        <div className="flex gap-2">
-          <Link className='border-2 border-cyan-500 px-2 py-1 text-cyan-600 font-medium' href={project.liveLink}>Live Site</Link>
-          <Link href={`projects/${project?.id}`} className='border-2 border-cyan-500 px-2 py-1 text-cyan-600 flex-1 text-center font-bold'>Explore Details</Link>
+        <div className="flex gap-2 items-center">
+          <Link className='border-2 border-cyan-500 px-2 py-1 text-cyan-600 font-medium rounded-sm' href={project.liveLink}>Live Site</Link>
+          <Link href={`projects/${project?.id}`} className='border-2 border-cyan-500 px-2 py-1 text-cyan-600 flex-1 text-center font-bold rounded-sm'>Explore Details</Link>
         </div>
       </div>
     </div>
