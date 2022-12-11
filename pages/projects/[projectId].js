@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 
 const ProjectDetails = ({ project }) => {
-  // console.log(project.projectImages);
   const { projectTitle, projectImages, liveLink, features, clientCode, serverCode, techs } = project;
   return (
     <div>
@@ -15,19 +14,24 @@ const ProjectDetails = ({ project }) => {
       {/* contents */}
       <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <h2 className="max-w-lg mb-6 font-code text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span>{projectTitle}</span>
           </h2>
           <div className="text-base text-gray-700 md:text-lg flex gap-2 flex-wrap md:justify-center">
             {
-              techs.map((tech, i) => <span className="text-sm border-2 px-2 py-1 border-cyan-100 text-cyan-600 rounded-sm" key={i}>{tech}</span>)
+              techs.map((tech, i) => <span className="text-xs border-2 px-2 py-1 border-cyan-100 text-cyan-600 rounded-sm font-code" key={i}>{tech}</span>)
             }
+          </div>
+        <div className='flex gap-4 mt-4 md:justify-center'>
+            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={clientCode}>Client Code</Link>
+            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={serverCode}>Server Code</Link>
+            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={liveLink}>Live Preview</Link>
           </div>
         </div>
         <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
           <div className="flex flex-col justify-center">
             {
-              features.map((feature, i) => <div key={i} className="flex">
+              features.map((feature, i) => <div key={i} className="flex font-code text-sm">
                 <div className="mr-4">
                   <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-indigo-50">
                     <svg
@@ -71,6 +75,7 @@ const ProjectDetails = ({ project }) => {
               alt=""
             />
           </div>
+
         </div>
       </div>
     </div>
