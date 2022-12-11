@@ -54,7 +54,7 @@ const Navbar = () => {
         role="menuitem"
         aria-haspopup="false"
         tabIndex="0"
-        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:bg-cyan-50 focus:outline-none focus-visible:outline-none lg:px-8"
+        className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:bg-cyan-50 focus:outline-none focus-visible:outline-none lg:pl-8"
         href="/#contact-me"
       >
         <span>Contact Me</span>

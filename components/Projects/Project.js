@@ -6,10 +6,10 @@ const Project = ({project}) => {
   return (
     <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
       <div aria-label="Article">
-        <Image
+        <img
           src={project.image}
           className="object-cover w-full h-64 rounded"
-          alt=""
+          alt="project"
         />
       </div>
       <div className="py-5">

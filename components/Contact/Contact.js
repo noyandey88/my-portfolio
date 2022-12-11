@@ -21,7 +21,7 @@ const Contact = () => {
           <div className="space-y-2">
             <div className="grid grid-cols-1 justify-items-center items-center">
             <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Contact Me</h2>
-              <Image src="/mail.gif" width={400} height={400}></Image>
+              <Image src="/mail.gif" width={400} height={400} alt="mail-icon"></Image>
             </div>
           </div>
         </div>

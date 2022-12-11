@@ -3,7 +3,7 @@ import Banner from '../components/Banner/Banner'
 import Contact from '../components/Contact/Contact'
 import Projects from '../components/Projects/Projects'
 
-export default function Home() {
+export default function Home({ projects }) {
   return (
     <div>
       <Head>
@@ -13,9 +13,20 @@ export default function Home() {
       </Head>
       <main>
         <Banner></Banner>
-        <Projects></Projects>
+        <Projects allProjects={projects}></Projects>
         <Contact></Contact>
       </main>
     </div>
   )
+}
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:5000/projects");
+  const data = await res.json();
+
+  return {
+    props: {
+      projects: data
+    }
+  }
 }
