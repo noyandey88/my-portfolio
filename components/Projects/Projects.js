@@ -7,7 +7,7 @@ import Project from './Project';
 
 const Projects = ({allProjects}) => {
   return (
-    <div>
+    <div id="projects">
       <div className='text-center mt-12'>
         <h1 className='text-4xl font-code font-bold'>Projects</h1>
       </div>

@@ -22,9 +22,9 @@ const Navbar = () => {
         aria-haspopup="false"
         tabIndex="0"
         className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-600 focus:bg-cyan-50 focus:outline-none focus-visible:outline-none lg:px-8"
-        href="/"
+        href="/#projects"
       >
-        <span>Project</span>
+        <span>Projects</span>
       </Link>
     </li>
     <li role="none" className="flex items-stretch">
@@ -33,9 +33,9 @@ const Navbar = () => {
         aria-haspopup="false"
         tabIndex="0"
         className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-cyan-500 focus:bg-cyan-50 focus:outline-none focus-visible:outline-none lg:px-8"
-        href="/"
+        href="/blogs"
       >
-        <span>Skils</span>
+        <span>Blogs</span>
       </Link>
     </li>
     <li role="none" className="flex items-stretch">
