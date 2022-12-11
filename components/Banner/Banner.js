@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
         {/* download button */}
         <div className="hidden md:block">
-          <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
+          <a href="/Noyan_Dey.pdf" download="Noyan_Dey.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
         </div>
       </div>
       <div>
@@ -40,7 +40,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="block md:hidden -mt-4">
-        <a href="/Noyan_Dey.pdf" download="Resume.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
+        <a href="/Noyan_Dey.pdf" download="Noyan_Dey.pdf" className="bg-cyan-500 px-4 py-2 text-white font-code font-semibold rounded-md">Download Resume</a>
       </div>
     </div>
   );
