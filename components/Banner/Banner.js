@@ -23,6 +23,8 @@ const Banner = () => {
               1000,
               "Full Stack Developer",
               1000,
+              "JavaScript Developer",
+              1000,
             ]}
             speed={30} // Custom Speed from 1-99 - Default Speed: 40
             wrapper="h2" // Animation will be rendered as a <span>

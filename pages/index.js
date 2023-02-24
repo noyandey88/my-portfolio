@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner/Banner'
 import Contact from '../components/Contact/Contact'
 import Projects from '../components/Projects/Projects'
+import Skills from '../components/Skills/Skills'
 
 export default function Home({ projects }) {
   return (
@@ -13,6 +14,7 @@ export default function Home({ projects }) {
       </Head>
       <main>
         <Banner></Banner>
+        <Skills></Skills>
         <Projects allProjects={projects}></Projects>
         <Contact></Contact>
       </main>

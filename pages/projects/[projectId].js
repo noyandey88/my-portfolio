@@ -23,9 +23,9 @@ const ProjectDetails = ({ project }) => {
             }
           </div>
         <div className='flex gap-4 mt-4 md:justify-center'>
-            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={clientCode}>Client Code</Link>
-            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={serverCode}>Server Code</Link>
-            <Link className="px-2 py-1 bg-cyan-500 text-white font-code font-medium" href={liveLink}>Live Preview</Link>
+            <Link className="px-2 py-1 text-xs md:text-base bg-cyan-500 text-white font-code font-medium" href={clientCode}>Client Code</Link>
+            <Link className="px-2 py-1 text-xs md:text-base bg-cyan-500 text-white font-code font-medium" href={serverCode}>Server Code</Link>
+            <Link className="px-2 py-1 text-xs md:text-base bg-cyan-500 text-white font-code font-medium" href={liveLink}>Live Preview</Link>
           </div>
         </div>
         <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
